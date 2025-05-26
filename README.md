@@ -83,7 +83,7 @@ Follow these steps to set up and run the project on your local machine:
 
    ```bash
    git clone https://github.com/your-username/flutter-news-app.git
-   cd flutter-news-app
+   cd news-app
 Install dependencies
 
 
