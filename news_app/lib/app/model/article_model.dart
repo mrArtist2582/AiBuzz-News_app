@@ -26,6 +26,8 @@ class ArticleModel {
     );
   }
 
+  get sourceName => null;
+
   Map<String, dynamic> toJson() {
     return {
       'title': title,
@@ -36,4 +38,6 @@ class ArticleModel {
       'publishedAt': publishedAt.toIso8601String(),
     };
   }
+
+  getFormattedDate() {}
 }
