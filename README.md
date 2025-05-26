@@ -6,8 +6,10 @@ A modern, responsive Flutter mobile app that delivers the latest news from NewsA
 
   ## 📸 Screenshots
  Light Mode :
+ 
 ![News a](https://github.com/user-attachments/assets/65d5fa88-de8d-4ed0-b31e-1058ecab62b2)
  Dark Mode :
+ 
 ![News a (1)](https://github.com/user-attachments/assets/98af105a-dc6e-439b-b2c3-32238ad5bb72)
 
 
@@ -25,7 +27,7 @@ A modern, responsive Flutter mobile app that delivers the latest news from NewsA
 ---
 
 ## 📁 Folder Structure
-
+ ```bash
 lib/
 ├── main.dart
 ├── app/
@@ -84,15 +86,7 @@ Install dependencies
 
    ```bash
    flutter pub get
-
-Add your NewsAPI key
-
-Open news_service.dart and replace:
-
-final String apiKey = 'YOUR_API_KEY';
-Run the app
-
-flutter run
+   flutter run
 
 
 
