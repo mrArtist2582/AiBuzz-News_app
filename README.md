@@ -4,6 +4,8 @@ A modern, responsive Flutter mobile app that delivers the latest news from NewsA
 
 ---
 
+> 📽️ **[Click here to view demo video](https://drive.google.com/your-demo-link)**
+
   ## 📸 Screenshots
  Light Mode :
  
@@ -13,7 +15,7 @@ A modern, responsive Flutter mobile app that delivers the latest news from NewsA
 ![News a (1)](https://github.com/user-attachments/assets/98af105a-dc6e-439b-b2c3-32238ad5bb72)
 
 
-> 📽️ **[Click here to view demo video](https://drive.google.com/your-demo-link)**
+
 
 
 
