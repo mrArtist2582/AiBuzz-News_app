@@ -1,32 +1,41 @@
+
+// ignore: unused_import
+import 'dart:convert'; 
 class ArticleModel {
   final String title;
   final String description;
   final String url;
   final String urlToImage;
-  final String source;
-  final DateTime publishedAt;
+  final String publishedAt;
+  final String sourceName;
 
   ArticleModel({
     required this.title,
     required this.description,
     required this.url,
     required this.urlToImage,
-    required this.source,
     required this.publishedAt,
+    required this.sourceName,
   });
 
+ 
   factory ArticleModel.fromJson(Map<String, dynamic> json) {
+    String? name;
+  
+    if (json['source'] != null && json['source']['name'] != null) {
+      name = json['source']['name'] as String;
+    }
+
     return ArticleModel(
-      title: json['title'] ?? '',
-      description: json['description'] ?? '',
-      url: json['url'] ?? '',
-      urlToImage: json['urlToImage'] ?? '',
-      source: json['source']['name'] ?? '',
-      publishedAt: DateTime.parse(json['publishedAt']),
+      title: json['title'] as String? ?? 'No Title',
+      description: json['description'] as String? ?? 'No Description',
+      url: json['url'] as String? ?? '',
+      urlToImage: json['urlToImage'] as String? ?? '',
+      publishedAt: json['publishedAt'] as String? ?? '',
+      sourceName: name ?? 'No Publisher', 
     );
   }
 
-  get sourceName => null;
 
   Map<String, dynamic> toJson() {
     return {
@@ -34,10 +43,23 @@ class ArticleModel {
       'description': description,
       'url': url,
       'urlToImage': urlToImage,
-      'source': source,
-      'publishedAt': publishedAt.toIso8601String(),
+      'publishedAt': publishedAt,
+    
+      'source': {'id': null, 'name': sourceName}, 
     };
   }
 
-  getFormattedDate() {}
+
+  String getFormattedDate() {
+    try {
+      if (publishedAt.isEmpty) {
+        return 'Unknown Date';
+      }
+      final dateTime = DateTime.parse(publishedAt);
+     
+      return '${dateTime.day.toString().padLeft(2, '0')}/${dateTime.month.toString().padLeft(2, '0')}/${dateTime.year}';
+    } catch (e) {
+      return 'Unknown Date';
+    }
+  }
 }

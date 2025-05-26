@@ -10,8 +10,7 @@ class SplashPage extends StatefulWidget {
   const SplashPage({super.key});
 
   @override
-  // ignore: library_private_types_in_public_api
-  _SplashPageState createState() => _SplashPageState();
+  State<SplashPage> createState() => _SplashPageState();
 }
 
 class _SplashPageState extends State<SplashPage> {
@@ -24,7 +23,7 @@ class _SplashPageState extends State<SplashPage> {
       if (StorageService.isLoggedIn()) {
         Get.offAll(() => const HomePage());
       } else {
-        Get.offAll(() =>  LoginPage());
+        Get.offAll(() => LoginPage());
       }
     });
   }
@@ -42,6 +41,7 @@ class _SplashPageState extends State<SplashPage> {
             Text(
               'KD News App',
               style: TextStyle(
+               
                 fontSize: 28,
                 fontWeight: FontWeight.bold,
                 color: Colors.white,
