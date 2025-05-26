@@ -27,7 +27,7 @@ A modern, responsive Flutter mobile app that delivers the latest news from NewsA
 ---
 
 ## 📁 Folder Structure
- ```bash
+ 
 lib/
 ├── main.dart
 ├── app/
@@ -53,6 +53,7 @@ lib/
 │ ├── settings_page.dart
 │ ├── home.dart
 
+ ---
 ## 🌟 Features
 
 ✅ User Login  
