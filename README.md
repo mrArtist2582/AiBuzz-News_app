@@ -90,8 +90,3 @@ Install dependencies
    ```bash
    flutter pub get
    flutter run
-
-
-
-
-
