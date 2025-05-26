@@ -1,0 +1,119 @@
+# 📰 Flutter News App
+
+A modern, responsive Flutter mobile app that delivers the latest news from NewsAPI. Features include login, bookmarking articles, smooth navigation, and light/dark theme support.
+
+---
+
+  ## 📸 Screenshots
+ Light Mode :
+![News a](https://github.com/user-attachments/assets/65d5fa88-de8d-4ed0-b31e-1058ecab62b2)
+ Dark Mode :
+![News a (1)](https://github.com/user-attachments/assets/98af105a-dc6e-439b-b2c3-32238ad5bb72)
+
+
+> 📽️ **[Click here to view demo video](https://drive.google.com/your-demo-link)**
+
+
+
+## 🧰 Tech Stack
+
+- **Frontend**: Flutter
+- **Storage**: Shared Preferences
+- **State Management**: GetX
+- **API**: [NewsAPI](https://newsapi.org/)
+
+---
+
+## 📁 Folder Structure
+
+lib/
+├── main.dart
+├── app/
+│ ├── theme/
+│ │ ├── theme_controller.dart
+│ │ ├── themes.dart
+│ ├── routes/
+│ │ ├── app_pages.dart
+│ ├── models/
+│ │ ├── article_model.dart
+│ ├── services/
+│ │ ├── news_service.dart
+│ │ ├── storage_service.dart
+│ ├── controllers/
+│ │ ├── login_controller.dart
+│ │ ├── news_controller.dart
+│ │ ├── bookmark_controller.dart
+│ │ ├── theme_controller.dart
+│ ├── views/
+│ ├── login_page.dart
+│ ├── news_page.dart
+│ ├── bookmark_page.dart
+│ ├── settings_page.dart
+│ ├── home.dart
+
+## 🌟 Features
+
+✅ User Login  
+📰 Latest News from NewsAPI  
+🔖 Bookmark your favorite articles  
+🌗 Light / Dark Theming  
+📱 Fully Responsive Design  
+🚀 Smooth Navigation with GetX
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to set up and run the project on your local machine:
+
+### ✅ Prerequisites
+
+- Flutter SDK installed
+- Android Studio / VS Code
+- A valid [NewsAPI](https://newsapi.org/) API key
+
+### 🔧 Installation
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/your-username/flutter-news-app.git
+   cd flutter-news-app
+Install dependencies
+
+bash
+Copy
+Edit
+flutter pub get
+Add your NewsAPI key
+
+Open news_service.dart and replace:
+
+dart
+Copy
+Edit
+final String apiKey = 'YOUR_API_KEY';
+Run the app
+
+bash
+Copy
+Edit
+flutter run
+🙌 Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+📃 License
+This project is licensed under the MIT License.
+
+yaml
+Copy
+Edit
+
+---
+
+
+
+
+
+
+
