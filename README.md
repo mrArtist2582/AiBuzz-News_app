@@ -5,6 +5,7 @@ A modern, responsive Flutter mobile app that delivers the latest news from NewsA
 ---
 
 📽️ **[Click here to view demo video](https://drive.google.com/file/d/1UEFTebMk4ixPvQHTU3DC-ofhPe7WCHs2/view?usp=sharing)**
+📽️ **[Click here to Download the app](https://drive.google.com/file/d/12uLcqyxVUEwCEL4qxGHgbn8msq5AfV7f/view?usp=sharing)**
 
   ## 📸 Screenshots
  Light Mode :
