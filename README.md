@@ -11,12 +11,10 @@ A modern, responsive Flutter mobile app that delivers the latest news from NewsA
  Light Mode :
  
 ![News a](https://github.com/user-attachments/assets/65d5fa88-de8d-4ed0-b31e-1058ecab62b2)
+
  Dark Mode :
  
 ![News a (1)](https://github.com/user-attachments/assets/98af105a-dc6e-439b-b2c3-32238ad5bb72)
-
-
-
 
 
 
@@ -29,34 +27,6 @@ A modern, responsive Flutter mobile app that delivers the latest news from NewsA
 
 ---
 
-## 📁 Folder Structure
- 
-lib/
-├── main.dart
-├── app/
-│ ├── theme/
-│ │ ├── theme_controller.dart
-│ │ ├── themes.dart
-│ ├── routes/
-│ │ ├── app_pages.dart
-│ ├── models/
-│ │ ├── article_model.dart
-│ ├── services/
-│ │ ├── news_service.dart
-│ │ ├── storage_service.dart
-│ ├── controllers/
-│ │ ├── login_controller.dart
-│ │ ├── news_controller.dart
-│ │ ├── bookmark_controller.dart
-│ │ ├── theme_controller.dart
-│ ├── views/
-│ ├── login_page.dart
-│ ├── news_page.dart
-│ ├── bookmark_page.dart
-│ ├── settings_page.dart
-│ ├── home.dart
-
- ---
 ## 🌟 Features
 
 ✅ User Login  
