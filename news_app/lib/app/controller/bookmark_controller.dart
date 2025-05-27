@@ -18,7 +18,7 @@ class BookmarkController extends GetxController {
   void loadBookmarks() async {
     try {
  
-      final List<String> data = await StorageService.getBookmarks(); 
+      final List<String> data = StorageService.getBookmarks(); 
 
     
       bookmarks.assignAll(data.map((e) {
